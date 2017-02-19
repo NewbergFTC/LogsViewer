@@ -1,0 +1,16 @@
+group 'com.peafowltrading'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = 1.7
+mainClassName = 'com.peafowltrading.logviewer.Main'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+}
